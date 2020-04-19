@@ -31,16 +31,73 @@ header {
 }
 .text__h1 {
     font-size: 52px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
+    line-height: 70px;
 }
 .text__h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
+    font-weight: 400;
+    padding: 30px 0;
 }
 .text__p{
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
+    padding: 40px 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 484px;
+    height: 511px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(8, 36, 30, 0.1);
+    color: #07221C;
+}
+.form__holder {
+    margin: 0 auto;
+}
+.form__h3 {
+    width: 404px;
+    font-size: 32px;
+    color: #07221C;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 30px auto;
+}
+.form__input{
+    width: 380px;
+    height: 38px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    background: #F8FBFA;
+    box-shadow: inset -1px 1px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 5px;
+    padding: 2px 12px;
+    margin: 6px;
+}
+.form__submit-btn {
+    /* margin-top: 30px; */
+    display: block;
+    width: 404px;
+    height: 44px;
+    border: none;
+    /* margin: 0 auto; */
+    background: #13574B;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px auto;
 }
 .footer {
     display: flex;
@@ -51,4 +108,5 @@ header {
 .footer__p {
     font-size: 14px;
     font-weight: bold;
+    margin: 32px;
 }
